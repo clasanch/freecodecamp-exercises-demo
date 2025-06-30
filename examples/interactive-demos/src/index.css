@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors duration-200;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 transition-colors duration-200;
+  }
+  
+  .array-cell {
+    @apply w-12 h-12 border-2 rounded flex items-center justify-center font-mono text-sm transition-all duration-300;
+  }
+  
+  .array-cell-highlight {
+    @apply scale-110 shadow-lg;
+  }
+}

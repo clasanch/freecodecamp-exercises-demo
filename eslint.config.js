@@ -6,6 +6,11 @@ export default [
   // Base JavaScript configuration
   js.configs.recommended,
 
+  // Ignore examples directory
+  {
+    ignores: ['examples/**/*'],
+  },
+
   // JavaScript files configuration
   {
     files: ['**/*.{js,mjs}'],

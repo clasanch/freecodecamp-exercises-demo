@@ -49,6 +49,8 @@ demo/
 │   ├── projects/            # 20 complete projects
 │   └── utils/               # Shared utilities
 ├── tests/                   # Tests organized by module
+├── examples/                # Interactive demonstrations
+│   └── interactive-demos/   # Web-based algorithm visualizations
 ├── docs/                    # Technical documentation
 ├── .github/workflows/       # GitHub Actions
 └── scripts/                 # Development scripts
@@ -99,6 +101,11 @@ npm run format:check # Check format
 # Utilities
 npm run clean       # Clean generated files
 npm run validate    # Verify everything (lint + format + tests)
+
+# Interactive Examples
+cd examples/interactive-demos  # Navigate to examples
+npm install                    # Install React dependencies
+npm run dev                    # Start development server
 ```
 
 ## 📚 Development Methodology
@@ -159,17 +166,46 @@ tests/
 
 ### 🚧 Current Progress
 
+#### Algorithms Implemented
+
 - [x] **Symmetric Difference Algorithm** - Implemented with 100% test coverage
-- [ ] Implement remaining 9 basic algorithms
+- [x] **Inventory Update Algorithm** - Implemented with 100% test coverage
+- [x] **No Repeats Please Algorithm** - Implemented with 100% test coverage
+
+#### Interactive Examples
+
+- [x] **Backtracking Visualization** - Step-by-step No Repeats Please algorithm
+      demo
+
+#### Next Steps
+
+- [ ] Implement remaining 7 basic algorithms
 - [ ] Create base tests for data structures
 - [ ] Configure performance metrics
 - [ ] Detailed technical documentation
 
-### 📋 Next Steps
+## 🎮 Interactive Examples
 
-- [ ] Implement second algorithm from FreeCodeCamp basic algorithms list
-- [ ] Add performance benchmarks for algorithms
-- [ ] Create algorithm comparison documentation
+The `examples/` directory contains interactive visualizations that demonstrate
+algorithm execution:
+
+### Backtracking Visualization
+
+- **Location**: `examples/interactive-demos/`
+- **Technology**: React + Tailwind CSS + Vite
+- **Features**: Step-by-step visualization of the No Repeats Please backtracking
+  algorithm
+- **Usage**: Navigate to examples directory, install dependencies, and run
+  `npm run dev`
+
+### Features
+
+- ⏯️ Play/pause animation controls
+- ⏮️⏭️ Step-by-step navigation
+- 🎚️ Adjustable animation speed
+- 📊 Real-time data structure visualization
+- 🎯 Educational annotations and explanations
+- 📱 Responsive design for all devices
 
 ## 🤝 Contributing
 
