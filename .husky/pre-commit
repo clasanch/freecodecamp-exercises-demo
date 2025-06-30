@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Ejecutar lint-staged para archivos modificados
+npx lint-staged
+
+# Verificar que los tests pasen
+npm run test:ci
+
+echo "✅ Pre-commit checks passed!"

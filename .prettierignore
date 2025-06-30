@@ -1,0 +1,22 @@
+# Dependencias
+node_modules/
+
+# Build outputs
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Package managers
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Git
+.git/
+
+# Archivos generados automáticamente
+*.min.js
+*.bundle.js

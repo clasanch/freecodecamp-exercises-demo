@@ -1,0 +1,14 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# Verificar que el build funcione
+npm run validate
+
+# Asegurar que no hay archivos sin trackear (opcional)
+if [ -n "$(git status --porcelain)" ]; then
+  echo "🚨 Error: Hay cambios sin commitear"
+  echo "Por favor, commit todos los cambios antes de hacer push"
+  exit 1
+fi
+
+echo "✅ Pre-push checks passed!"
