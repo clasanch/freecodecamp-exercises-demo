@@ -2,6 +2,10 @@ export default {
   // Entorno de pruebas
   testEnvironment: 'node',
 
+  // Configuración para ES modules
+  preset: null,
+  transform: {},
+
   // Tipos de archivos de prueba
   testMatch: ['**/tests/**/*.test.{js,mjs,ts}', '**/src/**/*.test.{js,mjs,ts}'],
 
