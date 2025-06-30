@@ -79,3 +79,14 @@ temp/
 
 # Test artifacts
 .nyc_output
+
+# Examples and interactive demos
+examples/**/node_modules/
+examples/**/dist/
+examples/**/.vite/
+examples/**/build/
+
+# npm cache directories (local and global)
+.npm-cache/
+npm-cache/
+.npm/

@@ -40,3 +40,38 @@ Each example is self-contained and includes:
 - Include both visual and textual explanations
 - Maintain performance even with complex visualizations
 - Follow the same code quality standards as the main project
+
+## Important Notes
+
+### Git Ignore Configuration
+
+Each interactive demo has its own `.gitignore` file to prevent committing:
+
+- `node_modules/` - Package dependencies
+- `dist/` and `build/` - Build outputs
+- `.vite/` - Vite cache files
+- Environment files and other temporary artifacts
+
+The main project `.gitignore` also includes global patterns for examples
+directories.
+
+### Local Development
+
+When running examples locally:
+
+1. Navigate to the specific example directory
+2. Run `npm install` to install dependencies
+3. Use `npm run dev` to start development server
+4. **Important**: Never commit `node_modules/` or build artifacts
+
+### Troubleshooting
+
+If you encounter npm permission issues:
+
+```bash
+# Fix npm cache permissions (macOS/Linux)
+sudo chown -R $(whoami) ~/.npm
+
+# Clear npm cache if needed
+npm cache clean --force
+```

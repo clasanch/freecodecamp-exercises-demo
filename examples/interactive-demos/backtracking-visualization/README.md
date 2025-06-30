@@ -98,3 +98,46 @@ Perfect for:
 - Debugging algorithm logic
 - Teaching algorithmic problem-solving techniques
 - Demonstrating optimization through pruning
+
+## Setup and Installation
+
+### Prerequisites
+
+- Node.js >= 18.0.0
+- npm >= 8.0.0
+
+### Installation Steps
+
+1. Navigate to the interactive demos directory:
+
+   ```bash
+   cd examples/interactive-demos
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open your browser to `http://localhost:3000`
+
+### Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+### Important Notes
+
+- All dependencies and build artifacts are properly gitignored
+- The visualization runs entirely in the browser
+- No backend or database required
+- Optimized for educational use with performance considerations
