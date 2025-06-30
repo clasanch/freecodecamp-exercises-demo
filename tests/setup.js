@@ -4,7 +4,7 @@
  */
 
 // Configuración de timeouts para pruebas (útil para algoritmos complejos)
-jest.setTimeout(10000);
+// jest.setTimeout(10000); // Se configurará en individual tests si es necesario
 
 // Helpers globales para pruebas
 global.testUtils = {
@@ -47,7 +47,8 @@ global.testUtils = {
 };
 
 // Configuración para snapshot testing
-expect.extend({
+// expect.extend({ // Se configurará cuando sea necesario
+/*
   toMatchPerformanceSnapshot(received, threshold = 100) {
     if (typeof received !== 'number') {
       return {
@@ -65,4 +66,5 @@ expect.extend({
       pass,
     };
   },
-});
+*/
+// });
