@@ -14,7 +14,7 @@
     "tdd",
     "clean-code"
   ],
-  "author": "Tu Nombre",
+  "author": "Claudio Sánchez",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0",

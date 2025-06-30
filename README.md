@@ -1,7 +1,7 @@
 # FreeCodeCamp Exercises Demo
 
-[![Tests](https://github.com/username/freecodecamp-exercises-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/username/freecodecamp-exercises-demo/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/badge/coverage-0%25-red)](https://github.com/username/freecodecamp-exercises-demo)
+[![Tests](https://github.com/clasanch/freecodecamp-exercises-demo/actions/workflows/ci.yml/badge.svg)](https://github.com/clasanch/freecodecamp-exercises-demo/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/badge/coverage-0%25-red)](https://github.com/clasanch/freecodecamp-exercises-demo)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
 
@@ -67,7 +67,7 @@ npm --version   # >= 8.0.0
 
 ```bash
 # Clonar el repositorio
-git clone https://github.com/username/freecodecamp-exercises-demo.git
+git clone https://github.com/clasanch/freecodecamp-exercises-demo.git
 cd freecodecamp-exercises-demo
 
 # Instalar dependencias
