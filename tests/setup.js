@@ -1,17 +1,17 @@
 /**
- * Configuración global para Jest
- * Se ejecuta antes de cada archivo de prueba
+ * Global configuration for Jest
+ * Executed before each test file
  */
 
-// Configuración de timeouts para pruebas (útil para algoritmos complejos)
-// jest.setTimeout(10000); // Se configurará en individual tests si es necesario
+// Test timeout configuration (useful for complex algorithms)
+// jest.setTimeout(10000); // Will be configured in individual tests if needed
 
-// Helpers globales para pruebas
+// Global test helpers
 global.testUtils = {
   /**
-   * Genera un array aleatorio para pruebas
-   * @param {number} size - Tamaño del array
-   * @param {number} max - Valor máximo
+   * Generates a random array for testing
+   * @param {number} size - Array size
+   * @param {number} max - Maximum value
    * @returns {number[]}
    */
   generateRandomArray: (size = 10, max = 100) => {
@@ -19,8 +19,8 @@ global.testUtils = {
   },
 
   /**
-   * Genera una cadena aleatoria para pruebas
-   * @param {number} length - Longitud de la cadena
+   * Generates a random string for testing
+   * @param {number} length - String length
    * @returns {string}
    */
   generateRandomString: (length = 10) => {
@@ -31,8 +31,8 @@ global.testUtils = {
   },
 
   /**
-   * Mide el tiempo de ejecución de una función
-   * @param {Function} fn - Función a medir
+   * Measures function execution time
+   * @param {Function} fn - Function to measure
    * @returns {Promise<{result: any, time: number}>}
    */
   measureExecutionTime: async fn => {
@@ -46,8 +46,8 @@ global.testUtils = {
   },
 };
 
-// Configuración para snapshot testing
-// expect.extend({ // Se configurará cuando sea necesario
+// Snapshot testing configuration
+// expect.extend({ // Will be configured when needed
 /*
   toMatchPerformanceSnapshot(received, threshold = 100) {
     if (typeof received !== 'number') {

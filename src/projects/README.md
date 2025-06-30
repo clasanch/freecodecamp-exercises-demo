@@ -1,14 +1,14 @@
-# Proyectos
+# Projects
 
-Esta carpeta contendrá los 20 proyectos de FreeCodeCamp.
+This folder will contain the 20 FreeCodeCamp projects.
 
-## Estructura
+## Structure
 
-- Cada proyecto en su propia subcarpeta
-- Implementación completa y funcional
-- Tests de integración
-- Documentación de uso
+- Each project in its own subfolder
+- Complete and functional implementation
+- Integration tests
+- Usage documentation
 
-## Proyectos a implementar
+## Projects to implement
 
-(Se irán agregando paso a paso)
+(Will be added step by step)

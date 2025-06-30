@@ -3,10 +3,10 @@ import prettier from 'eslint-config-prettier';
 import jest from 'eslint-plugin-jest';
 
 export default [
-  // Configuración base de JavaScript
+  // Base JavaScript configuration
   js.configs.recommended,
 
-  // Configuración para archivos JavaScript
+  // JavaScript files configuration
   {
     files: ['**/*.{js,mjs}'],
     languageOptions: {
@@ -23,13 +23,13 @@ export default [
       },
     },
     rules: {
-      // Reglas de calidad de código
+      // Code quality rules
       'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
       'no-console': 'warn',
       'prefer-const': 'error',
       'no-var': 'error',
 
-      // Reglas de estilo (que no conflicten con Prettier)
+      // Style rules (that don't conflict with Prettier)
       'max-len': [
         'error',
         {
@@ -42,21 +42,21 @@ export default [
       'max-lines-per-function': ['warn', { max: 50, skipComments: true }],
       complexity: ['warn', 10],
 
-      // Mejores prácticas
+      // Best practices
       eqeqeq: ['error', 'always'],
       'no-eval': 'error',
       'no-implied-eval': 'error',
       'no-new-func': 'error',
-      strict: ['error', 'never'], // No necesario con ES modules
+      strict: ['error', 'never'], // Not needed with ES modules
 
-      // Funciones puras y inmutabilidad
+      // Pure functions and immutability
       'no-param-reassign': 'warn',
       'prefer-arrow-callback': 'error',
       'arrow-function-even-when-unnecessary': 'off',
     },
   },
 
-  // Configuración específica para archivos de test
+  // Test files specific configuration
   {
     files: ['**/*.test.{js,mjs}', '**/tests/**/*.{js,mjs}'],
     plugins: {
@@ -71,7 +71,7 @@ export default [
     rules: {
       ...jest.configs.recommended.rules,
       'no-console': 'off',
-      'max-lines-per-function': 'off', // Los tests pueden ser más largos
+      'max-lines-per-function': 'off', // Tests can be longer
       'jest/expect-expect': 'error',
       'jest/no-disabled-tests': 'warn',
       'jest/no-focused-tests': 'error',
@@ -80,14 +80,14 @@ export default [
     },
   },
 
-  // Configuración para archivos de configuración
+  // Configuration files settings
   {
     files: ['*.config.{js,mjs}', 'scripts/**/*.{js,mjs}'],
     rules: {
-      'no-console': 'off', // Permitir console.log en scripts
+      'no-console': 'off', // Allow console.log in scripts
     },
   },
 
-  // Prettier debe ir al final para sobrescribir reglas de formato
+  // Prettier must be last to override formatting rules
   prettier,
 ];

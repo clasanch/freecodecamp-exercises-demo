@@ -1,10 +1,9 @@
-# Utilidades Compartidas
+# Shared Utilities
 
-Funciones y helpers compartidos entre algoritmos, estructuras de datos y
-proyectos.
+Functions and helpers shared between algorithms, data structures and projects.
 
-## Principios
+## Principles
 
-- Funciones puras cuando sea posible
-- Bien documentadas y testeadas
-- Reutilizables y modulares
+- Pure functions when possible
+- Well documented and tested
+- Reusable and modular

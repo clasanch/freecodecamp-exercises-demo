@@ -1,23 +1,23 @@
 export default {
-  // Entorno de pruebas
+  // Test environment
   testEnvironment: 'node',
 
-  // Configuración para ES modules
+  // ES modules configuration
   preset: null,
   transform: {},
 
-  // Tipos de archivos de prueba
+  // Test file patterns
   testMatch: ['**/tests/**/*.test.{js,mjs,ts}', '**/src/**/*.test.{js,mjs,ts}'],
 
-  // Cobertura de código
+  // Code coverage collection
   collectCoverageFrom: [
     'src/**/*.{js,mjs,ts}',
     '!src/**/*.test.{js,mjs,ts}',
     '!src/**/__tests__/**',
-    '!src/index.js', // Archivo principal de entrada
+    '!src/index.js', // Main entry file
   ],
 
-  // Umbrales de cobertura (se activarán cuando tengamos tests)
+  // Coverage thresholds (will be activated when we have tests)
   // coverageThreshold: {
   //   global: {
   //     branches: 80,
@@ -27,21 +27,21 @@ export default {
   //   }
   // },
 
-  // Reportes de cobertura
+  // Coverage reports
   coverageReporters: ['text', 'lcov', 'html', 'json-summary'],
 
-  // Directorio de salida de cobertura
+  // Coverage output directory
   coverageDirectory: 'coverage',
 
-  // Configuración para verbose output
+  // Verbose output configuration
   verbose: true,
 
-  // Limpiar mocks entre tests
+  // Clear mocks between tests
   clearMocks: true,
 
-  // Transform configuration (si necesitamos TypeScript en el futuro)
+  // Transform configuration (if we need TypeScript in the future)
   // transform: {},
 
-  // Setup de pruebas globales
+  // Global test setup
   setupFilesAfterEnv: ['<rootDir>/tests/setup.js'],
 };

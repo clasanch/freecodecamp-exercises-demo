@@ -1,13 +1,13 @@
-# Algoritmos
+# Algorithms
 
-Esta carpeta contendrá los 10 algoritmos básicos de FreeCodeCamp.
+This folder will contain the 10 basic FreeCodeCamp algorithms.
 
-## Estructura
+## Structure
 
-- Cada algoritmo en su propio archivo
-- Tests unitarios correspondientes
-- Documentación con ejemplos
+- Each algorithm in its own file
+- Corresponding unit tests
+- Documentation with examples
 
-## Algoritmos a implementar
+## Algorithms to implement
 
-(Se irán agregando paso a paso)
+(Will be added step by step)
