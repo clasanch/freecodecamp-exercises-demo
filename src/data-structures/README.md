@@ -1,14 +1,15 @@
-# Estructuras de Datos
+# Data Structures
 
-Esta carpeta contendrá las 46 estructuras de datos y algoritmos de FreeCodeCamp.
+This folder will contain the 46 data structures and algorithms from
+FreeCodeCamp.
 
-## Estructura
+## Structure
 
-- Cada estructura de datos en su propio archivo
-- Implementación completa con métodos
-- Tests unitarios exhaustivos
-- Ejemplos de uso
+- Each data structure in its own file
+- Complete implementation with methods
+- Exhaustive unit tests
+- Usage examples
 
-## Estructuras a implementar
+## Structures to implement
 
-(Se irán agregando paso a paso)
+(Will be added step by step)

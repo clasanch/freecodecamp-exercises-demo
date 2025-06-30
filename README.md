@@ -5,199 +5,199 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
 
-> Repositorio completo de ejercicios de FreeCodeCamp implementados con TDD,
-> Clean Code y CI/CD
+> Complete repository of FreeCodeCamp exercises implemented with TDD, Clean Code
+> and CI/CD
 
-## 🎯 Objetivo
+## 🎯 Objective
 
-Este repositorio contiene **76 ejercicios** de FreeCodeCamp implementados
-siguiendo las mejores prácticas de desarrollo:
+This repository contains **76 exercises** from FreeCodeCamp implemented
+following software development best practices:
 
-- 🧮 **10 Algoritmos básicos**
-- 🏗️ **46 Estructuras de datos y algoritmos**
-- 🚀 **20 Proyectos completos**
+- 🧮 **10 Basic algorithms**
+- 🏗️ **46 Data structures and algorithms**
+- 🚀 **20 Complete projects**
 
-## 🛠️ Tecnologías y Herramientas
+## 🛠️ Technologies and Tools
 
 ### Core Stack
 
 - **Node.js** >= 18.0.0
 - **ES Modules** (ESM)
-- **JavaScript** vanilla (sin frameworks)
+- **JavaScript** vanilla (no frameworks)
 
-### Desarrollo y Calidad
+### Development and Quality
 
 - **Jest** - Testing framework
-- **ESLint** - Linting con reglas estrictas
-- **Prettier** - Formateo automático de código
-- **Husky** - Git hooks para calidad
-- **lint-staged** - Lint solo archivos modificados
+- **ESLint** - Linting with strict rules
+- **Prettier** - Automatic code formatting
+- **Husky** - Git hooks for quality
+- **lint-staged** - Lint only modified files
 
 ### CI/CD
 
-- **GitHub Actions** - Integración continua
-- **Cobertura de tests** >= 80%
-- **Pre-commit hooks** obligatorios
+- **GitHub Actions** - Continuous integration
+- **Test coverage** >= 80%
+- **Mandatory pre-commit hooks**
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
 ```
 demo/
 ├── src/
-│   ├── algorithms/          # 10 algoritmos básicos
-│   ├── data-structures/     # 46 estructuras de datos
-│   ├── projects/            # 20 proyectos completos
-│   └── utils/               # Utilidades compartidas
-├── tests/                   # Tests organizados por módulo
-├── docs/                    # Documentación técnica
+│   ├── algorithms/          # 10 basic algorithms
+│   ├── data-structures/     # 46 data structures
+│   ├── projects/            # 20 complete projects
+│   └── utils/               # Shared utilities
+├── tests/                   # Tests organized by module
+├── docs/                    # Technical documentation
 ├── .github/workflows/       # GitHub Actions
-└── scripts/                 # Scripts de desarrollo
+└── scripts/                 # Development scripts
 ```
 
-## 🚀 Inicio Rápido
+## 🚀 Quick Start
 
-### Prerrequisitos
+### Prerequisites
 
 ```bash
 node --version  # >= 18.0.0
 npm --version   # >= 8.0.0
 ```
 
-### Instalación
+### Installation
 
 ```bash
-# Clonar el repositorio
+# Clone the repository
 git clone https://github.com/clasanch/freecodecamp-exercises-demo.git
 cd freecodecamp-exercises-demo
 
-# Instalar dependencias
+# Install dependencies
 npm install
 
-# Verificar la instalación
+# Verify installation
 npm run validate
 ```
 
-### Scripts Disponibles
+### Available Scripts
 
 ```bash
-# Desarrollo
-npm run dev          # Ejecutar en modo desarrollo
-npm start           # Ejecutar en producción
+# Development
+npm run dev          # Run in development mode
+npm start           # Run in production
 
 # Testing
-npm test            # Ejecutar todos los tests
-npm run test:watch  # Tests en modo watch
-npm run test:coverage # Tests con reporte de cobertura
-npm run test:ci     # Tests para CI (sin watch)
+npm test            # Run all tests
+npm run test:watch  # Tests in watch mode
+npm run test:coverage # Tests with coverage report
+npm run test:ci     # Tests for CI (no watch)
 
-# Calidad de Código
-npm run lint        # Verificar linting
-npm run lint:fix    # Arreglar problemas de linting
-npm run format      # Formatear código
-npm run format:check # Verificar formato
+# Code Quality
+npm run lint        # Check linting
+npm run lint:fix    # Fix linting issues
+npm run format      # Format code
+npm run format:check # Check format
 
-# Utilidades
-npm run clean       # Limpiar archivos generados
-npm run validate    # Verificar todo (lint + format + tests)
+# Utilities
+npm run clean       # Clean generated files
+npm run validate    # Verify everything (lint + format + tests)
 ```
 
-## 📚 Metodología de Desarrollo
+## 📚 Development Methodology
 
 ### Test-Driven Development (TDD)
 
-Cada algoritmo y estructura de datos se desarrolla siguiendo TDD estricto:
+Each algorithm and data structure is developed following strict TDD:
 
-1. **🔴 Red**: Escribir test que falle
-2. **🟢 Green**: Código mínimo para pasar
-3. **🔵 Refactor**: Mejorar manteniendo tests verdes
+1. **🔴 Red**: Write test that fails
+2. **🟢 Green**: Minimum code to pass
+3. **🔵 Refactor**: Improve while keeping tests green
 
-### Principios de Clean Code
+### Clean Code Principles
 
-- Funciones pequeñas (máx. 20 líneas)
-- Nombres descriptivos y claros
-- Un solo nivel de abstracción
-- Principios SOLID aplicados
-- Cobertura de tests >= 80%
+- Small functions (max 20 lines)
+- Descriptive and clear names
+- Single level of abstraction
+- SOLID principles applied
+- Test coverage >= 80%
 
 ### Trunk-Based Development
 
-- Ramas de vida corta (24-48h máximo)
-- Integración continua obligatoria
-- Pre-commit hooks que verifican calidad
+- Short-lived branches (24-48h maximum)
+- Mandatory continuous integration
+- Pre-commit hooks that verify quality
 - No long-lived branches
 
 ## 🧪 Testing
 
-### Estructura de Tests
+### Test Structure
 
 ```bash
 tests/
-├── algorithms/         # Tests de algoritmos
-├── data-structures/    # Tests de estructuras de datos
-├── projects/          # Tests de proyectos
-├── utils/             # Tests de utilidades
-└── setup.js           # Configuración global
+├── algorithms/         # Algorithm tests
+├── data-structures/    # Data structure tests
+├── projects/          # Project tests
+├── utils/             # Utility tests
+└── setup.js           # Global configuration
 ```
 
-### Convenciones de Testing
+### Testing Conventions
 
-- Cada función/clase tiene su archivo `.test.js`
-- Tests descriptivos con Given-When-Then
-- Cobertura >= 80% global, >= 90% para algoritmos críticos
-- Performance testing para algoritmos complejos
+- Each function/class has its `.test.js` file
+- Descriptive tests with Given-When-Then
+- Coverage >= 80% global, >= 90% for critical algorithms
+- Performance testing for complex algorithms
 
-## 📊 Progreso del Proyecto
+## 📊 Project Progress
 
-### ✅ Infraestructura (Completada)
+### ✅ Infrastructure (Completed)
 
-- [x] Configuración base del proyecto
-- [x] Configuración de Jest y testing
-- [x] ESLint y Prettier configurados
-- [x] Husky y pre-commit hooks
+- [x] Base project configuration
+- [x] Jest and testing configuration
+- [x] ESLint and Prettier configured
+- [x] Husky and pre-commit hooks
 - [x] GitHub Actions CI/CD
-- [x] Estructura de carpetas
+- [x] Folder structure
 
-### 📋 Próximos Pasos
+### 📋 Next Steps
 
-- [ ] Implementar primer algoritmo (se definirá paso a paso)
-- [ ] Crear tests base para estructura de datos
-- [ ] Configurar métricas de performance
-- [ ] Documentación técnica detallada
+- [ ] Implement first algorithm (will be defined step by step)
+- [ ] Create base tests for data structures
+- [ ] Configure performance metrics
+- [ ] Detailed technical documentation
 
-## 🤝 Contribución
+## 🤝 Contributing
 
-### Flujo de Trabajo
+### Workflow
 
-1. Crear rama feature: `git checkout -b feature/algoritmo-nombre`
-2. Implementar con TDD
-3. Asegurar que pasan todos los checks: `npm run validate`
-4. Crear PR con descripción detallada
-5. Code review obligatorio
-6. Merge después de aprobación
+1. Create feature branch: `git checkout -b feature/algorithm-name`
+2. Implement with TDD
+3. Ensure all checks pass: `npm run validate`
+4. Create PR with detailed description
+5. Mandatory code review
+6. Merge after approval
 
-### Estándares de Código
+### Code Standards
 
-- Todos los tests deben pasar
-- Cobertura >= 80%
-- Sin warnings de ESLint
-- Código formateado con Prettier
-- Commits con mensajes descriptivos
+- All tests must pass
+- Coverage >= 80%
+- No ESLint warnings
+- Code formatted with Prettier
+- Descriptive commit messages
 
-## 📝 Licencia
+## 📝 License
 
-Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para
-detalles.
+This project is under the MIT License - see the [LICENSE](LICENSE) file for
+details.
 
-## 🔗 Enlaces Útiles
+## 🔗 Useful Links
 
 - [FreeCodeCamp](https://www.freecodecamp.org/)
-- [Documentación de Node.js](https://nodejs.org/docs/)
+- [Node.js Documentation](https://nodejs.org/docs/)
 - [Jest Documentation](https://jestjs.io/docs/getting-started)
 - [ESLint Rules](https://eslint.org/docs/rules/)
 
 ---
 
-> 🎯 **Objetivo de Aprendizaje**: Este repositorio no solo resuelve ejercicios,
-> sino que enseña mejores prácticas de desarrollo de software moderno.
+> 🎯 **Learning Objective**: This repository not only solves exercises, but
+> teaches modern software development best practices.
 
-**Desarrollado con ❤️ siguiendo principios de Clean Code y TDD**
+**Developed with ❤️ following Clean Code and TDD principles**

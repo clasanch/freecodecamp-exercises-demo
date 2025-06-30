@@ -1,16 +1,16 @@
 /**
  * FreeCodeCamp Exercises Demo
- * Punto de entrada principal de la aplicación
+ * Main application entry point
  */
 
 // eslint-disable-next-line no-console
 console.log('🚀 FreeCodeCamp Exercises Demo');
 // eslint-disable-next-line no-console
-console.log('📚 Repositorio de algoritmos, estructuras de datos y proyectos');
+console.log('📚 Repository of algorithms, data structures and projects');
 // eslint-disable-next-line no-console
-console.log('✅ Configuración inicial completada');
+console.log('✅ Initial configuration completed');
 
-// Export para testing
+// Export for testing
 export const app = {
   name: 'FreeCodeCamp Exercises Demo',
   version: '1.0.0',

@@ -1,5 +1,5 @@
 export default {
-  // Configuración básica
+  // Basic configuration
   semi: true,
   trailingComma: 'es5',
   singleQuote: true,
@@ -7,7 +7,7 @@ export default {
   tabWidth: 2,
   useTabs: false,
 
-  // Configuración específica para diferentes tipos de archivos
+  // Specific configuration for different file types
   overrides: [
     {
       files: '*.json',
@@ -25,7 +25,7 @@ export default {
     {
       files: '*.{js,mjs}',
       options: {
-        // Configuración específica para JavaScript
+        // JavaScript specific configuration
         arrowParens: 'avoid',
         bracketSpacing: true,
         endOfLine: 'lf',
