@@ -5,6 +5,32 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org/)
 
+## 🚧 Work in Progress - Join the Pack!
+
+> **Status**: Active development following Trunk-Based Development  
+> **Progress**: 3/76 exercises completed (130+ clones in 2 days! 🚀)
+
+This repository is **actively growing** with new algorithms and features being
+added regularly. Like the motto says: _"Lone wolves need packs that have their
+back"_ - and this pack is looking for talented developers who want to contribute
+to something meaningful.
+
+### 🤝 How You Can Help
+
+Got ideas? Found a bug? Want to implement an algorithm?
+
+- 🐛 **File detailed bug reports** - Help us catch edge cases
+- 📚 **Improve documentation** - Make it clearer for everyone
+- 💡 **Propose features** via
+  [Discussions](https://github.com/clasanch/freecodecamp-exercises-demo/discussions)
+- ☕ **Sponsor the project** - Keep the code flowing (and the cats fed) at
+  [GitHub Sponsors](https://github.com/sponsors/clasanch)
+
+Every contribution counts, whether it's code, documentation, or just starring
+the repo to help others find it!
+
+---
+
 > Complete repository of FreeCodeCamp exercises implemented with TDD, Clean Code
 > and CI/CD
 
