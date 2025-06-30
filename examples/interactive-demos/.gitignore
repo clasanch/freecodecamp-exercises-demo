@@ -52,7 +52,7 @@ tmp/
 temp/
 
 # Lock files (if using different package managers)
-*.lock
+# Keep package-lock.json for reproducible builds
 yarn.lock
 pnpm-lock.yaml
 
