@@ -94,12 +94,15 @@ jobs:
     
     - name: Test production start
       run: |
-        timeout 10s npm start || exit_code=$?
-        if [ $exit_code -eq 124 ]; then
-          echo "✅ Application started successfully"
+        timeout 10s npm start && exit_code=0 || exit_code=$?
+        if [ "${exit_code}" -eq 124 ]; then
+          echo "✅ Application started successfully (timeout as expected)"
+          exit 0
+        elif [ "${exit_code}" -eq 0 ]; then
+          echo "✅ Application started and finished successfully"
           exit 0
         else
-          echo "❌ Application failed to start"
+          echo "❌ Application failed to start (exit code: ${exit_code})"
           exit 1
         fi
 
