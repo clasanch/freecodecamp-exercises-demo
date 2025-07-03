@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress - Join the Pack!
 
 > **Status**: Active development following Trunk-Based Development  
-> **Progress**: 8/76 exercises completed (130+ clones in 2 days! 🚀)
+> **Progress**: 9/76 exercises completed (130+ clones in 2 days! 🚀)
 
 This repository is **actively growing** with new algorithms and features being
 added regularly. Like the motto says: _"Lone wolves need packs that have their
@@ -202,6 +202,7 @@ tests/
 - [x] **Selection Sort Algorithm** - Implemented with 100% test coverage
 - [x] **Insertion Sort Algorithm** - Implemented with 100% test coverage
 - [x] **Quick Sort Algorithm** - Implemented with 100% test coverage
+- [x] **Merge Sort Algorithm** - Implemented with 100% test coverage
 
 #### Interactive Examples
 
@@ -210,7 +211,7 @@ tests/
 
 #### Next Steps
 
-- [ ] Implement remaining 2 basic algorithms
+- [ ] Implement remaining 1 basic algorithm
 - [ ] Create base tests for data structures
 - [ ] Configure performance metrics
 - [ ] Detailed technical documentation
