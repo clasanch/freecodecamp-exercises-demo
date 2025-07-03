@@ -3,9 +3,9 @@
 This folder contains the 46 data structures and algorithms from FreeCodeCamp
 implemented with TDD methodology and Clean Code principles.
 
-## Progress: 4/46 Completed
+## Progress: 5/46 Completed
 
-### ✅ Completed (4/46)
+### ✅ Completed (5/46)
 
 - [x] **Typed Arrays** (`typed-arrays.js`) - Efficient array operations for
       numeric data
@@ -15,12 +15,13 @@ implemented with TDD methodology and Clean Code principles.
       implementation
 - [x] **Create a Queue Class** (`queue-class.js`) - FIFO data structure with
       enqueue/dequeue operations
+- [x] **Create a Priority Queue Class** (`priority-queue.js`) - Priority-based
+      queue where elements with lower priority numbers have higher precedence
 
-### 🔄 Pending Implementation (42/46)
+### 🔄 Pending Implementation (41/46)
 
 #### Queue Data Structures
 
-- [ ] Create a Priority Queue Class
 - [ ] Create a Circular Queue
 
 #### Set Data Structures
