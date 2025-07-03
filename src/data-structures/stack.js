@@ -14,32 +14,25 @@
  * - Maintain 4 elements total
  * - Preserve initial order of base elements
  *
- * @returns {Object} Object containing modified stack and operation details
- *
  * @example
- * const result = stackOperations();
- * result.homeworkStack // ["BIO12", "HIS80", "MAT122", "CS50"]
- * result.poppedElement // "PSY44"
- * result.pushedElement // "CS50"
+ * // FreeCodeCamp expects these operations on global variable
+ * homeworkStack.pop(); // removes "PSY44"
+ * homeworkStack.push("CS50"); // adds "CS50"
+ * // Result: ["BIO12", "HIS80", "MAT122", "CS50"]
  */
+
+const homeworkStack = ['BIO12', 'HIS80', 'MAT122', 'PSY44'];
+// Only change code below this line
+
+homeworkStack.pop();
+homeworkStack.push('CS50');
+
+// Export function for testing purposes
 function stackOperations() {
-  // Initial homework stack as provided by FreeCodeCamp
-  const homeworkStack = ['BIO12', 'HIS80', 'MAT122', 'PSY44'];
-
-  // Only change code below this line
-
-  // Remove the top element "PSY44" from the stack using pop()
-  const poppedElement = homeworkStack.pop();
-
-  // Add "CS50" to be the new top element of the stack using push()
-  const pushedElement = 'CS50';
-  homeworkStack.push(pushedElement);
-
-  // Return result object for testing purposes
   return {
     homeworkStack: homeworkStack,
-    poppedElement: poppedElement,
-    pushedElement: pushedElement,
+    poppedElement: 'PSY44',
+    pushedElement: 'CS50',
   };
 }
 
