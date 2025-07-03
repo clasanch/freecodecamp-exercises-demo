@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress - Join the Pack!
 
 > **Status**: Active development following Trunk-Based Development  
-> **Progress**: 5/76 exercises completed (130+ clones in 2 days! 🚀)
+> **Progress**: 6/76 exercises completed (130+ clones in 2 days! 🚀)
 
 This repository is **actively growing** with new algorithms and features being
 added regularly. Like the motto says: _"Lone wolves need packs that have their
@@ -198,6 +198,7 @@ tests/
 - [x] **Inventory Update Algorithm** - Implemented with 100% test coverage
 - [x] **No Repeats Please Algorithm** - Implemented with 100% test coverage
 - [x] **Pairwise Algorithm** - Implemented with 100% test coverage
+- [x] **Bubble Sort Algorithm** - Implemented with 100% test coverage
 - [x] **Selection Sort Algorithm** - Implemented with 100% test coverage
 
 #### Interactive Examples
@@ -207,7 +208,7 @@ tests/
 
 #### Next Steps
 
-- [ ] Implement remaining 5 basic algorithms
+- [ ] Implement remaining 4 basic algorithms
 - [ ] Create base tests for data structures
 - [ ] Configure performance metrics
 - [ ] Detailed technical documentation
