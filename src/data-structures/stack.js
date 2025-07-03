@@ -21,12 +21,13 @@
  * // Result: ["BIO12", "HIS80", "MAT122", "CS50"]
  */
 
-// eslint-disable-next-line no-var
-var homeworkStack = ['BIO12', 'HIS80', 'MAT122', 'PSY44'];
+// prettier-ignore
+var homeworkStack = ["BIO12","HIS80","MAT122","PSY44"]; // eslint-disable-line no-var
 // Only change code below this line
 
 homeworkStack.pop();
-homeworkStack.push('CS50');
+// prettier-ignore
+homeworkStack.push("CS50");
 
 // Export function for testing purposes
 function stackOperations() {
