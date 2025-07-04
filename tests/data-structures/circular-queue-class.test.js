@@ -6,7 +6,7 @@
  * O(1) enqueue/dequeue operations with boundary checking
  */
 
-import CircularQueue from '../../src/data-structures/circular-queue.js';
+import CircularQueue from '../../src/data-structures/circular-queue-class.js';
 
 describe('Circular Queue Class - Fixed-size Circular Buffer', () => {
   describe('Constructor and initialization', () => {
