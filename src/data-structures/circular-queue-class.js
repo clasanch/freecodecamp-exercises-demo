@@ -51,17 +51,17 @@ class CircularQueue {
    * @returns {*|null} The item if successfully added, null if queue is full
    */
   enqueue(item) {
-    // Calculate next write position
-    const nextWrite = (this.write + 1) % (this.max + 1);
-
-    // Check if write pointer would move past read pointer
-    // This happens when nextWrite would equal read and there's unread data
-    if (nextWrite === this.read && this.queue[this.read] !== null) {
+    // If there's already data at write position, queue is full
+    if (this.queue[this.write] !== null) {
       return null;
     }
 
+    // Write the item at current write position
     this.queue[this.write] = item;
-    this.write = nextWrite;
+
+    // Advance write pointer with wraparound
+    this.write = (this.write + 1) % (this.max + 1);
+
     return item;
   }
 
