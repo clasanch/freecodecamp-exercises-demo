@@ -221,6 +221,8 @@ tests/
       logic and O(1) operations with 100% test coverage
 - [x] **Set Class** - Unique element collection with type-safe storage and O(1)
       operations for add, remove, has, and size methods with 100% test coverage
+- [x] **Union Two Sets** - Set union operation combining two sets returning all
+      unique elements from both sets without duplicates with 100% test coverage
 
 #### Interactive Examples
 
@@ -230,7 +232,7 @@ tests/
 #### Next Steps
 
 - [x] ✅ **10 Basic algorithms completed!**
-- [x] ✅ **7/46 Data structures in progress**
+- [x] ✅ **8/46 Data structures in progress**
 - [ ] Continue implementing Set Data Structures (next: Perform an Intersection)
 - [ ] Configure performance metrics
 - [ ] Detailed technical documentation
