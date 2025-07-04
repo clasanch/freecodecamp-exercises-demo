@@ -12,7 +12,7 @@
  * - front views highest priority element without removal
  */
 
-import PriorityQueue from '../../src/data-structures/priority-queue.js';
+import PriorityQueue from '../../src/data-structures/priority-queue-class.js';
 
 describe('Priority Queue Class - Priority-based Queue Data Structure', () => {
   let pq;

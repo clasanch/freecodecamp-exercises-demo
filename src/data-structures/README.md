@@ -15,8 +15,9 @@ implemented with TDD methodology and Clean Code principles.
       implementation
 - [x] **Create a Queue Class** (`queue-class.js`) - FIFO data structure with
       enqueue/dequeue operations
-- [x] **Create a Priority Queue Class** (`priority-queue.js`) - Priority-based
-      queue where elements with lower priority numbers have higher precedence
+- [x] **Create a Priority Queue Class** (`priority-queue-class.js`) -
+      Priority-based queue where elements with lower priority numbers have
+      higher precedence
 
 ### 🔄 Pending Implementation (41/46)
 
