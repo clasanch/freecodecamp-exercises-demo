@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress - Join the Pack!
 
 > **Status**: Active development following Trunk-Based Development  
-> **Progress**: 15/76 exercises completed (10 algorithms + 5 data structures)
+> **Progress**: 16/76 exercises completed (10 algorithms + 6 data structures)
 
 This repository is **actively growing** with new algorithms and features being
 added regularly. Like the motto says: _"Lone wolves need packs that have their
@@ -217,6 +217,8 @@ tests/
       100% test coverage
 - [x] **Priority Queue Class** - Priority-based queue where elements with lower
       priority numbers have higher precedence with 100% test coverage
+- [x] **Circular Queue** - Fixed-size circular buffer with wraparound pointer
+      logic and O(1) operations with 100% test coverage
 
 #### Interactive Examples
 
@@ -226,8 +228,8 @@ tests/
 #### Next Steps
 
 - [x] ✅ **10 Basic algorithms completed!**
-- [x] ✅ **5/46 Data structures in progress**
-- [ ] Continue implementing Circular Queue and Set Data Structures
+- [x] ✅ **6/46 Data structures in progress**
+- [ ] Continue implementing Set Data Structures (next: Create a Set Class)
 - [ ] Configure performance metrics
 - [ ] Detailed technical documentation
 
