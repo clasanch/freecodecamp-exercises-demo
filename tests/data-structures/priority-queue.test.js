@@ -50,6 +50,26 @@ describe('Priority Queue Class - Priority-based Queue Data Structure', () => {
     test('should have printCollection method from skeleton', () => {
       expect(typeof pq.printCollection).toBe('function');
     });
+
+    test('should have working printCollection method that calls console.log', () => {
+      const originalConsoleLog = console.log;
+      let loggedValue;
+
+      console.log = value => {
+        loggedValue = value;
+      };
+
+      pq.enqueue(['task1', 2]);
+      pq.enqueue(['urgent', 1]);
+      pq.printCollection();
+
+      expect(loggedValue).toEqual([
+        ['urgent', 1],
+        ['task1', 2],
+      ]);
+
+      console.log = originalConsoleLog;
+    });
   });
 
   describe('Enqueue operation - priority-based insertion', () => {
