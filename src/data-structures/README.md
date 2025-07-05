@@ -3,9 +3,9 @@
 This folder contains the 46 data structures and algorithms from FreeCodeCamp
 implemented with TDD methodology and Clean Code principles.
 
-## Progress: 8/46 Completed
+## Progress: 9/46 Completed
 
-### ✅ Completed (8/46)
+### ✅ Completed (9/46)
 
 - [x] **Typed Arrays** (`typed-arrays.js`) - Efficient array operations for
       numeric data
@@ -26,8 +26,12 @@ implemented with TDD methodology and Clean Code principles.
 - [x] **Perform a Union on Two Sets** (`union-two-sets.js`) - Set union
       operation that combines two sets returning all unique elements from both
       sets without duplicates, using O(n + m) time complexity
+- [x] **Perform an Intersection on Two Sets** (`intersection-two-sets.js`) - Set
+      intersection operation that returns only elements common to both sets,
+      optimized to iterate over the smaller set with O(min(n, m)) time
+      complexity and 100% test coverage
 
-### 🔄 Pending Implementation (38/46)
+### 🔄 Pending Implementation (37/46)
 
 #### Queue Data Structures
 
@@ -37,7 +41,8 @@ implemented with TDD methodology and Clean Code principles.
 
 - [x] **Create a Set Class** - ✅ Completed with type-safe element storage
 - [x] **Perform a Union on Two Sets** - ✅ Completed with 100% test coverage
-- [ ] Perform an Intersection on Two Sets of Data
+- [x] **Perform an Intersection on Two Sets of Data** - ✅ Completed with 100%
+      test coverage and optimization
 - [ ] Perform a Difference on Two Sets of Data
 - [ ] Perform a Subset Check on Two Sets of Data
 - [ ] Create and Add to Sets in ES6
