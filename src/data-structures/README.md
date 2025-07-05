@@ -3,9 +3,9 @@
 This folder contains the 46 data structures and algorithms from FreeCodeCamp
 implemented with TDD methodology and Clean Code principles.
 
-## Progress: 9/46 Completed
+## Progress: 10/46 Completed
 
-### ✅ Completed (9/46)
+### ✅ Completed (10/46)
 
 - [x] **Typed Arrays** (`typed-arrays.js`) - Efficient array operations for
       numeric data
@@ -30,8 +30,12 @@ implemented with TDD methodology and Clean Code principles.
       intersection operation that returns only elements common to both sets,
       optimized to iterate over the smaller set with O(min(n, m)) time
       complexity and 100% test coverage
+- [x] **Perform a Difference on Two Sets** (`set-difference-class.js`) - Set
+      difference operation that returns elements present in the first set but
+      absent in the second set, demonstrating asymmetric operation with O(n)
+      time complexity and 100% test coverage
 
-### 🔄 Pending Implementation (37/46)
+### 🔄 Pending Implementation (36/46)
 
 #### Queue Data Structures
 
