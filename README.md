@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress - Join the Pack!
 
 > **Status**: Active development following Trunk-Based Development  
-> **Progress**: 19/76 exercises completed (10 algorithms + 9 data structures)
+> **Progress**: 20/76 exercises completed (10 algorithms + 10 data structures)
 
 This repository is **actively growing** with new algorithms and features being
 added regularly. Like the motto says: _"Lone wolves need packs that have their
@@ -223,6 +223,9 @@ tests/
       operations for add, remove, has, and size methods with 100% test coverage
 - [x] **Union Two Sets** - Set union operation combining two sets returning all
       unique elements from both sets without duplicates with 100% test coverage
+- [x] **Create and Add to Sets in ES6** - Native ES6 Set usage demonstration
+      with automatic duplicate handling and simple add() method with 100% test
+      coverage
 
 #### Interactive Examples
 
@@ -232,7 +235,7 @@ tests/
 #### Next Steps
 
 - [x] ✅ **10 Basic algorithms completed!**
-- [x] ✅ **8/46 Data structures in progress**
+- [x] ✅ **10/46 Data structures in progress**
 - [ ] Continue implementing Set Data Structures (next: Perform an Intersection)
 - [ ] Configure performance metrics
 - [ ] Detailed technical documentation
