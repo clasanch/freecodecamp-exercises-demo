@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress - Join the Pack!
 
 > **Status**: Active development following Trunk-Based Development  
-> **Progress**: 25/76 exercises completed (10 algorithms + 15 data structures)
+> **Progress**: 26/76 exercises completed (10 algorithms + 16 data structures)
 
 This repository is **actively growing** with new algorithms and features being
 added regularly. Like the motto says: _"Lone wolves need packs that have their
@@ -228,6 +228,10 @@ tests/
       coverage
 - [x] **Use .has and .size on an ES6 Set** - Demonstrates native ES6 Set methods
       for value checking and size retrieval with O(1) performance and 100% test
+      coverage
+- [x] **Create an ES6 JavaScript Map** - Native ES6 Map implementation
+      demonstrating built-in Map object functionality with insertion order
+      preservation, any key type support, and O(1) operations with 100% test
       coverage
 
 #### Interactive Examples
