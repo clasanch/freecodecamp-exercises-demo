@@ -56,6 +56,7 @@ myMap.set('freeCodeCamp', 'Awesome!');
 
 // Export for different module systems
 /* eslint-disable no-undef */
+/* istanbul ignore next */
 if (typeof module !== 'undefined' && module.exports) {
   // CommonJS export for FreeCodeCamp platform
   module.exports = { myMap };
