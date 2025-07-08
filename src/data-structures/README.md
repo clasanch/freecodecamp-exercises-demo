@@ -3,9 +3,9 @@
 This folder contains the 46 data structures and algorithms from FreeCodeCamp
 implemented with TDD methodology and Clean Code principles.
 
-## Progress: 16/46 Completed
+## Progress: 17/46 Completed
 
-### ✅ Completed (16/46)
+### ✅ Completed (17/46)
 
 - [x] **Typed Arrays** (`typed-arrays.js`) - Efficient array operations for
       numeric data
@@ -61,8 +61,13 @@ implemented with TDD methodology and Clean Code principles.
       maintains insertion order, supports any key type (objects, primitives,
       functions), provides O(1) operations for get/set/has/delete with 100% test
       coverage and comprehensive educational examples
+- [x] **Create a Hash Table** (`create-hash-table.js`) - Custom hash table
+      implementation with collision handling using separate chaining, provides
+      O(1) average time complexity for add/lookup/remove operations, preserves
+      FreeCodeCamp skeleton structure with educational compliance and 100% test
+      coverage
 
-### 🔄 Pending Implementation (30/46)
+### 🔄 Pending Implementation (29/46)
 
 #### Queue Data Structures
 
@@ -93,7 +98,8 @@ implemented with TDD methodology and Clean Code principles.
       educational compliance
 - [x] **Create an ES6 JavaScript Map** - ✅ Completed with 100% test coverage
       and native ES6 Map demonstration
-- [ ] Create a Hash Table
+- [x] **Create a Hash Table** - ✅ Completed with 100% test coverage and
+      collision handling via separate chaining
 
 #### Linked List Data Structures
 
