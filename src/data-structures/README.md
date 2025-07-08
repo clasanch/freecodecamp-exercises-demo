@@ -3,9 +3,9 @@
 This folder contains the 46 data structures and algorithms from FreeCodeCamp
 implemented with TDD methodology and Clean Code principles.
 
-## Progress: 14/46 Completed
+## Progress: 15/46 Completed
 
-### ✅ Completed (14/46)
+### ✅ Completed (15/46)
 
 - [x] **Typed Arrays** (`typed-arrays.js`) - Efficient array operations for
       numeric data
@@ -51,8 +51,13 @@ implemented with TDD methodology and Clean Code principles.
       spread operator to convert Set objects to arrays with educational
       implementation showing simple `[...set]` syntax for O(n) Set to Array
       conversion with 100% test coverage
+- [x] **Create a Map Data Structure** (`create-map-data-structure.js`) - Custom
+      Map implementation using JavaScript objects as underlying storage,
+      provides key-value pair operations with O(1) access time, converts values
+      to strings in array format as per FreeCodeCamp specifications with 100%
+      test coverage
 
-### 🔄 Pending Implementation (32/46)
+### 🔄 Pending Implementation (31/46)
 
 #### Queue Data Structures
 
@@ -79,7 +84,8 @@ implemented with TDD methodology and Clean Code principles.
 
 #### Map and Hash Data Structures
 
-- [ ] Create a Map Data Structure
+- [x] **Create a Map Data Structure** - ✅ Completed with 100% test coverage and
+      educational compliance
 - [ ] Create an ES6 JavaScript Map
 - [ ] Create a Hash Table
 
