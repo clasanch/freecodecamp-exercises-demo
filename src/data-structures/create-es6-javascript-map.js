@@ -39,6 +39,10 @@
  * Time Complexity: O(1) for get, set, has, delete operations
  * Space Complexity: O(n) where n is the number of key-value pairs
  * Educational Compliance: ✅ Verified against FreeCodeCamp specifications
+ *
+ * NOTE FOR FREECODECAMP PLATFORM:
+ * If you need to copy this code to FreeCodeCamp, remove the export line
+ * at the bottom and just keep the CommonJS module.exports part.
  */
 
 /**
@@ -50,14 +54,13 @@ const myMap = new Map();
 // Add the required key-value pair as per FreeCodeCamp specifications
 myMap.set('freeCodeCamp', 'Awesome!');
 
-// ES Module export for project tests
-export { myMap };
-
-// CommonJS export for FreeCodeCamp platform compatibility
-// Note: This line provides dual compatibility but won't be covered in ES Module tests
-/* istanbul ignore next */
+// Export for different module systems
 /* eslint-disable no-undef */
 if (typeof module !== 'undefined' && module.exports) {
+  // CommonJS export for FreeCodeCamp platform
   module.exports = { myMap };
 }
 /* eslint-enable no-undef */
+
+// ES Module export for project tests (only processed by bundler)
+export { myMap };
