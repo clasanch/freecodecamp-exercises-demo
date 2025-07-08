@@ -3,9 +3,9 @@
 This folder contains the 46 data structures and algorithms from FreeCodeCamp
 implemented with TDD methodology and Clean Code principles.
 
-## Progress: 11/46 Completed
+## Progress: 12/46 Completed
 
-### ✅ Completed (11/46)
+### ✅ Completed (12/46)
 
 - [x] **Typed Arrays** (`typed-arrays.js`) - Efficient array operations for
       numeric data
@@ -38,8 +38,12 @@ implemented with TDD methodology and Clean Code principles.
       Set usage demonstration with automatic duplicate handling and simple add()
       method, showcasing ES6 Set simplicity compared to custom ES5
       implementation with 100% test coverage
+- [x] **Remove items from a set in ES6** (`remove-items-from-set.js`) - ES6 Set
+      delete() method demonstration with preserved skeleton compliance, creates
+      a Set with values [1,2,3,4,5] and removes 2 and 5 to return [1,3,4] with
+      100% test coverage
 
-### 🔄 Pending Implementation (35/46)
+### 🔄 Pending Implementation (34/46)
 
 #### Queue Data Structures
 
@@ -55,7 +59,8 @@ implemented with TDD methodology and Clean Code principles.
 - [ ] Perform a Subset Check on Two Sets of Data
 - [x] **Create and Add to Sets in ES6** - ✅ Completed with 100% test coverage
       and ES6 native API demonstration
-- [ ] Remove items from a set in ES6
+- [x] **Remove items from a set in ES6** - ✅ Completed with 100% test coverage
+      and ES6 Set.delete() method demonstration
 - [ ] Use .has and .size on an ES6 Set
 - [ ] Use Spread and Notes for ES5 Set() Integration
 
