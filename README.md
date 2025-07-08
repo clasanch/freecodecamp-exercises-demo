@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress - Join the Pack!
 
 > **Status**: Active development following Trunk-Based Development  
-> **Progress**: 21/76 exercises completed (10 algorithms + 11 data structures)
+> **Progress**: 22/76 exercises completed (10 algorithms + 12 data structures)
 
 This repository is **actively growing** with new algorithms and features being
 added regularly. Like the motto says: _"Lone wolves need packs that have their
@@ -225,6 +225,9 @@ tests/
       unique elements from both sets without duplicates with 100% test coverage
 - [x] **Create and Add to Sets in ES6** - Native ES6 Set usage demonstration
       with automatic duplicate handling and simple add() method with 100% test
+      coverage
+- [x] **Use .has and .size on an ES6 Set** - Demonstrates native ES6 Set methods
+      for value checking and size retrieval with O(1) performance and 100% test
       coverage
 
 #### Interactive Examples
