@@ -50,4 +50,14 @@ const myMap = new Map();
 // Add the required key-value pair as per FreeCodeCamp specifications
 myMap.set('freeCodeCamp', 'Awesome!');
 
+// ES Module export for project tests
 export { myMap };
+
+// CommonJS export for FreeCodeCamp platform compatibility
+// Note: This line provides dual compatibility but won't be covered in ES Module tests
+/* istanbul ignore next */
+/* eslint-disable no-undef */
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = { myMap };
+}
+/* eslint-enable no-undef */
