@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress - Join the Pack!
 
 > **Status**: Active development following Trunk-Based Development  
-> **Progress**: 27/76 exercises completed (10 algorithms + 17 data structures)
+> **Progress**: 28/76 exercises completed (10 algorithms + 18 data structures)
 
 This repository is **actively growing** with new algorithms and features being
 added regularly. Like the motto says: _"Lone wolves need packs that have their
@@ -236,6 +236,9 @@ tests/
 - [x] **Create a Hash Table** - Custom hash table implementation with collision
       handling using separate chaining, provides O(1) average time complexity
       for add/lookup/remove operations with 100% test coverage
+- [x] **Work with Nodes in a Linked List** - Fundamental linked list node
+      operations with manual node creation and linking, forming sequential
+      chains with proper reference management and 100% test coverage
 
 #### Interactive Examples
 
@@ -245,9 +248,9 @@ tests/
 #### Next Steps
 
 - [x] ✅ **10 Basic algorithms completed!**
-- [x] ✅ **17/46 Data structures in progress**
-- [ ] Continue implementing Linked List Data Structures (next: Work with Nodes
-      in a Linked List)
+- [x] ✅ **18/46 Data structures in progress**
+- [ ] Continue implementing Linked List Data Structures (next: Create a Linked
+      List Class)
 - [ ] Configure performance metrics
 - [ ] Detailed technical documentation
 
