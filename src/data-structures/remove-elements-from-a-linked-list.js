@@ -1,3 +1,4 @@
+/* eslint-disable max-lines-per-function, no-var */
 /**
  * Remove Elements from a Linked List
  *
@@ -25,12 +26,10 @@
  * Educational Compliance: ✅ Verified against platform tests
  */
 function LinkedList() {
-  // eslint-disable-line max-lines-per-function
-  var length = 0; // eslint-disable-line no-var
-  var head = null; // eslint-disable-line no-var
+  var length = 0;
+  var head = null;
 
   var Node = function (element) {
-    // eslint-disable-line no-var
     this.element = element;
     this.next = null;
   };
@@ -44,11 +43,11 @@ function LinkedList() {
   };
 
   this.add = function (element) {
-    var node = new Node(element); // eslint-disable-line no-var
+    var node = new Node(element);
     if (head === null) {
       head = node;
     } else {
-      var currentNode = head; // eslint-disable-line no-var
+      var currentNode = head;
 
       while (currentNode.next) {
         currentNode = currentNode.next;
@@ -76,7 +75,7 @@ function LinkedList() {
     }
 
     // Case 3: Remove middle or tail node - traverse and unlink
-    var currentNode = head; // eslint-disable-line no-var
+    var currentNode = head;
     while (currentNode.next !== null) {
       if (currentNode.next.element === element) {
         // Unlink: current -> target -> next becomes current -> next
