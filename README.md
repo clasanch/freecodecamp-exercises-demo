@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress - Join the Pack!
 
 > **Status**: Active development following Trunk-Based Development  
-> **Progress**: 30/76 exercises completed (10 algorithms + 20 data structures)
+> **Progress**: 31/76 exercises completed (10 algorithms + 21 data structures)
 
 This repository is **actively growing** with new algorithms and features being
 added regularly. Like the motto says: _"Lone wolves need packs that have their
@@ -243,6 +243,14 @@ tests/
       basic add functionality, preserving FreeCodeCamp skeleton structure with
       closure-based private variables and O(n) tail insertion with 100% test
       coverage
+- [x] **Remove Elements from a Linked List** - Implements remove method for
+      singly linked list with comprehensive removal handling: head, middle,
+      tail, and non-existent elements with O(n) time complexity and 100% test
+      coverage
+- [x] **Search within a Linked List** - Implements isEmpty, indexOf, and
+      elementAt methods for comprehensive list querying capabilities. Linear
+      search algorithms O(n) for indexOf/elementAt, O(1) for isEmpty with 100%
+      test coverage
 
 #### Interactive Examples
 
@@ -252,7 +260,7 @@ tests/
 #### Next Steps
 
 - [x] ✅ **10 Basic algorithms completed!**
-- [x] ✅ **19/46 Data structures in progress**
+- [x] ✅ **21/46 Data structures in progress**
 - [ ] Continue implementing Linked List Data Structures (next: Add and Remove
       Methods)
 - [ ] Configure performance metrics
