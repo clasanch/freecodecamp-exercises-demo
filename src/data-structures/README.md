@@ -3,9 +3,9 @@
 This folder contains the 46 data structures and algorithms from FreeCodeCamp
 implemented with TDD methodology and Clean Code principles.
 
-## Progress: 18/46 Completed
+## Progress: 19/46 Completed
 
-### ✅ Completed (18/46)
+### ✅ Completed (19/46)
 
 - [x] **Typed Arrays** (`typed-arrays.js`) - Efficient array operations for
       numeric data
@@ -71,8 +71,12 @@ implemented with TDD methodology and Clean Code principles.
       operations with manual node creation and linking, demonstrates basic node
       structure with element and next properties, forms sequential chains
       through reference management with 100% test coverage
+- [x] **Create a Linked List Class** (`linked-list-class.js`) - Singly linked
+      list implementation with basic add functionality, preserves FreeCodeCamp
+      skeleton structure with closure-based private variables, supports O(n)
+      tail insertion with proper node chaining and 100% test coverage
 
-### 🔄 Pending Implementation (28/46)
+### 🔄 Pending Implementation (27/46)
 
 #### Queue Data Structures
 
@@ -110,7 +114,8 @@ implemented with TDD methodology and Clean Code principles.
 
 - [x] **Work with Nodes in a Linked List** - ✅ Completed with 100% test
       coverage and fundamental node operations demonstration
-- [ ] Create a Linked List Class
+- [x] **Create a Linked List Class** - ✅ Completed with 100% test coverage and
+      basic add functionality with educational compliance
 - [ ] Remove Elements from a Linked List
 - [ ] Search within a Linked List
 - [ ] Remove Elements from a Linked List by Index

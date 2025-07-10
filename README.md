@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress - Join the Pack!
 
 > **Status**: Active development following Trunk-Based Development  
-> **Progress**: 28/76 exercises completed (10 algorithms + 18 data structures)
+> **Progress**: 29/76 exercises completed (10 algorithms + 19 data structures)
 
 This repository is **actively growing** with new algorithms and features being
 added regularly. Like the motto says: _"Lone wolves need packs that have their
@@ -239,6 +239,10 @@ tests/
 - [x] **Work with Nodes in a Linked List** - Fundamental linked list node
       operations with manual node creation and linking, forming sequential
       chains with proper reference management and 100% test coverage
+- [x] **Create a Linked List Class** - Singly linked list implementation with
+      basic add functionality, preserving FreeCodeCamp skeleton structure with
+      closure-based private variables and O(n) tail insertion with 100% test
+      coverage
 
 #### Interactive Examples
 
@@ -248,9 +252,9 @@ tests/
 #### Next Steps
 
 - [x] ✅ **10 Basic algorithms completed!**
-- [x] ✅ **18/46 Data structures in progress**
-- [ ] Continue implementing Linked List Data Structures (next: Create a Linked
-      List Class)
+- [x] ✅ **19/46 Data structures in progress**
+- [ ] Continue implementing Linked List Data Structures (next: Add and Remove
+      Methods)
 - [ ] Configure performance metrics
 - [ ] Detailed technical documentation
 
