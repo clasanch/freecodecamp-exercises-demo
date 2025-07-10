@@ -8,7 +8,7 @@
 ## 🚧 Work in Progress - Join the Pack!
 
 > **Status**: Active development following Trunk-Based Development  
-> **Progress**: 31/76 exercises completed (10 algorithms + 21 data structures)
+> **Progress**: 32/76 exercises completed (10 algorithms + 22 data structures)
 
 This repository is **actively growing** with new algorithms and features being
 added regularly. Like the motto says: _"Lone wolves need packs that have their
@@ -251,6 +251,10 @@ tests/
       elementAt methods for comprehensive list querying capabilities. Linear
       search algorithms O(n) for indexOf/elementAt, O(1) for isEmpty with 100%
       test coverage
+- [x] **Remove Elements from a Linked List by Index** - Implements removeAt
+      method using runner technique for index-based removal with comprehensive
+      edge case handling (head, middle, tail, invalid indices). O(n) time
+      complexity with proper node connection management and 100% test coverage
 
 #### Interactive Examples
 
@@ -260,7 +264,7 @@ tests/
 #### Next Steps
 
 - [x] ✅ **10 Basic algorithms completed!**
-- [x] ✅ **21/46 Data structures in progress**
+- [x] ✅ **22/46 Data structures in progress**
 - [ ] Continue implementing Linked List Data Structures (next: Add and Remove
       Methods)
 - [ ] Configure performance metrics
