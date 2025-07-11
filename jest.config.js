@@ -17,15 +17,15 @@ export default {
     '!src/index.js', // Main entry file
   ],
 
-  // Coverage thresholds (will be activated when we have tests)
-  // coverageThreshold: {
-  //   global: {
-  //     branches: 80,
-  //     functions: 80,
-  //     lines: 80,
-  //     statements: 80
-  //   }
-  // },
+  // Coverage thresholds - activated to prevent quality regression
+  coverageThreshold: {
+    global: {
+      branches: 90,
+      functions: 95,
+      lines: 95,
+      statements: 95,
+    },
+  },
 
   // Coverage reports
   coverageReporters: ['text', 'lcov', 'html', 'json-summary'],
