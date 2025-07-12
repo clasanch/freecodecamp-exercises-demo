@@ -49,38 +49,16 @@ export { Node, BinarySearchTree, displayTree };
 function isBinarySearchTree(tree) {
   // Only change code below this line
 
-  /**
-   * Validates BST property using range constraints
-   * Each node must satisfy: min < node.value < max (for strict bounds)
-   * Left subtree: all values < parent value
-   * Right subtree: all values >= parent value
-   *
-   * @param {Object|null} node - Current node being validated
-   * @param {number} min - Minimum allowed value (exclusive)
-   * @param {number} max - Maximum allowed value (exclusive for left, inclusive for right)
-   * @returns {boolean} True if subtree rooted at node is valid BST
-   */
-  function validateBST(node, min, max) {
-    // Base case: null nodes are valid (empty subtrees)
-    if (node === null) {
-      return true;
-    }
-
-    // Check if current node violates BST constraints
-    // Node value must be within the range (min, max)
-    if (node.value <= min || node.value > max) {
-      return false;
-    }
-
-    // Recursively validate left and right subtrees with updated bounds
-    // Left subtree: values must be strictly less than current node value
-    // Right subtree: values must be strictly greater than current node value
-    return validateBST(node.left, min, node.value) && validateBST(node.right, node.value, max);
+  function helper(node, min, max) {
+    if (node === null) return true;
+    if (node.value <= min || node.value >= max) return false;
+    return helper(node.left, min, node.value) && helper(node.right, node.value, max);
   }
 
-  // Start validation with infinite bounds
-  // Use -Infinity and +Infinity to handle any possible values
-  return validateBST(tree, -Infinity, Infinity);
+  // Handle both direct node and BST object with root property
+  if (tree === null) return true;
+  const rootNode = tree.root !== undefined ? tree.root : tree;
+  return helper(rootNode, -Infinity, Infinity);
 
   // Only change code above this line
 }
