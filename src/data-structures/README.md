@@ -3,9 +3,9 @@
 This folder contains the 46 data structures and algorithms from FreeCodeCamp
 implemented with TDD methodology and Clean Code principles.
 
-## Progress: 24/46 Completed
+## Progress: 26/46 Completed
 
-### ✅ Completed (24/46)
+### ✅ Completed (26/46)
 
 - [x] **Typed Arrays** (`typed-arrays.js`) - Efficient array operations for
       numeric data
@@ -106,8 +106,26 @@ implemented with TDD methodology and Clean Code principles.
       edge case handling (empty list, single element, first/last removal), and
       remove ALL occurrences strategy. O(1) add operations, O(n) remove
       operations with 100% test coverage and FreeCodeCamp compliance
+- [x] **Reverse a Doubly Linked List** (`reverse-doubly-linked-list.js`) -
+      Implements reverse method for bidirectional linked list with comprehensive
+      pointer swapping and head/tail maintenance. Features forward and backward
+      traversal validation, O(n) time complexity with O(1) space complexity,
+      maintains proper next/prev references, and 100% test coverage with
+      FreeCodeCamp compliance
+- [x] **Add a New Element to a Binary Search Tree**
+      (`add-new-element-binary-search-tree.js`) - Implements recursive insertion
+      algorithm maintaining BST invariant (left ≤ parent, right ≥ parent) with
+      comprehensive duplicate handling returning null. O(log n) average case,
+      O(n) worst case time complexity with educational compliance preserving
+      exact FreeCodeCamp skeleton structure and 100% test coverage
+- [x] **Find the Minimum and Maximum Value in a Binary Search Tree**
+      (`bst-find-min-max.js`) - Implements efficient findMin/findMax methods
+      using iterative traversal leveraging BST property (leftmost = min,
+      rightmost = max). O(h) time complexity where h is height, O(1) space
+      complexity, returns null for empty tree, maintains educational compliance
+      with exact skeleton preservation and 100% test coverage
 
-### 🔄 Pending Implementation (22/46)
+### 🔄 Pending Implementation (20/46)
 
 #### Queue Data Structures
 
@@ -162,12 +180,18 @@ implemented with TDD methodology and Clean Code principles.
 - [x] **Create a Doubly Linked List** - ✅ Completed with 100% test coverage
       implementing bidirectional linked list with add/remove methods and proper
       head/tail maintenance
-- [ ] Reverse a Doubly Linked List
+- [x] **Reverse a Doubly Linked List** - ✅ Completed with 100% test coverage
+      implementing reverse method with comprehensive pointer swapping and
+      head/tail maintenance
 
 #### Binary Tree Data Structures
 
-- [ ] Add a New Element to a Binary Search Tree
-- [ ] Find the Minimum and Maximum Value in a Binary Search Tree
+- [x] **Add a New Element to a Binary Search Tree** - ✅ Completed with 100%
+      test coverage implementing recursive insertion algorithm maintaining BST
+      invariant with comprehensive duplicate handling
+- [x] **Find the Minimum and Maximum Value in a Binary Search Tree** - ✅
+      Completed with 100% test coverage implementing efficient iterative
+      traversal leveraging BST property for O(h) time and O(1) space complexity
 - [ ] Check if an Element is Present in a Binary Search Tree
 - [ ] Check if Tree is Binary Search Tree
 - [ ] Find the Minimum and Maximum Height of a Binary Search Tree
